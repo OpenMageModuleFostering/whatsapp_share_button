@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+   <catalog_product_view translate="label">
+        
+
+         <reference name="head">
+             <action method="addItem" ifconfig="whatsappshare/general/jquery">
+                <type>skin_js</type><name>magegeeks/js/jquery-1.11.3.min.js</name>
+             </action> 
+             <action method="addCss">
+                <script>magegeeks/css/magegeeks_whatsappshare.css</script>
+             </action> 
+             
+
+
+         </reference> 
+
+         <reference name="product.info.extrahint" >
+            <block type="whatsappshare/whatsappshare"  name="whatsappshare"> 
+                 <action method="setTemplate" ifconfig="whatsappshare/general/enabledisable">
+                    <template>whatsappshare/whatsappshare.phtml</template>
+                 </action> 
+            </block>
+         </reference>
+    
+        
+
+    </catalog_product_view>
+
+</layout>

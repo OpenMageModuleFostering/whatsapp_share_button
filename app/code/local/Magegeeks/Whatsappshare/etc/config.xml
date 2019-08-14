@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Magegeeks_Whatsappshare>
+            <version>1.0.0</version>
+        </Magegeeks_Whatsappshare>
+    </modules>
+
+    <frontend>
+        <layout>
+            <updates>
+                <Whatsappshare>
+                    <file>whatsappshare.xml</file>
+                </Whatsappshare>
+            </updates>
+        </layout>
+        
+    </frontend>
+
+    <adminhtml>
+       	<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<whatsappshare translate="title" module="whatsappshare">
+											<title>Whats share Button</title>
+										</whatsappshare>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>		
+    </adminhtml>
+
+    <global>
+        
+        <blocks>
+            <whatsappshare>
+                <class>Magegeeks_Whatsappshare_Block</class>
+            </whatsappshare>
+        </blocks>
+        <helpers>
+            <whatsappshare>
+                <class>Magegeeks_Whatsappshare_Helper</class>
+            </whatsappshare>
+        </helpers>
+    </global>
+
+</config>

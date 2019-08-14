@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @developer   Magegeeks
+ * @package    Magegeeks_Whatsappshare
+ * @author     magegeeks@gmail.com
+ */
+ -->
+<config>
+    <modules>
+        <Magegeeks_Whatsappshare>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Magegeeks_Whatsappshare>
+    </modules>
+</config> 

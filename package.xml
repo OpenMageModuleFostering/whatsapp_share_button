@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>whatsapp_share_button</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL v1.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>WhatsApp Share Extension allows to share and promote your products on WhatsApp with just one touch. </summary>
+    <description>WhatsApp Share Extension allows to share and promote your products on WhatsApp with just one touch. </description>
+    <notes>This is stable version released for for whatsapp share button.</notes>
+    <authors><author><name>Magegeeks</name><user>Magegeeks</user><email>deepakmankotiacse@gmail.com</email></author></authors>
+    <date>2016-03-16</date>
+    <time>10:53:01</time>
+    <contents><target name="magelocal"><dir name="Magegeeks"><dir name="Whatsappshare"><dir name="Block"><file name="Whatsappshare.php" hash="02acce26911213fa51366f6803ab2bb1"/></dir><dir name="Helper"><file name="Data.php" hash="10454742ca08519262646451590734b7"/></dir><dir name="etc"><file name="config.xml" hash="60cbfa2f3251ddf7885fcb408e65a919"/><file name="system.xml" hash="cd418201bdda9ca2d6bcb57d3e3ed00e"/></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="whatsappshare.xml" hash="ac6eb1a4b6a61ed10b205b71a7185495"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Magegeeks_Whatsappshare.xml" hash="d644ab4dac124a797ea0a3b945c9c8a1"/></dir></dir></target><target name="mageskin"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="magegeeks"><dir name="css"><file name="magegeeks_whatsappshare.css" hash="f8b53437d2d8fdca7e6e452dd4e2eb51"/></dir><dir name="img"><file name="icon.png" hash="01d6196c27ebc8a3339472aecf5d6e58"/></dir><dir name="js"><file name="jquery-1.11.3.min.js" hash="895323ed2f7258af4fae2c738c8aea49"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.5</max></php></required></dependencies>
+</package>
