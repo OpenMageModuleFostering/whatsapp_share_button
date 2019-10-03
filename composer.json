@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/whatsapp_share_button",
+    "name": "OpenMageModuleFostering\/whatsapp_share_button",
     "type": "magento-module",
     "license": "OSL-v1.0",
     "homepage": "",
     "description": "WhatsApp Share Extension allows to share and promote your products on WhatsApp with just one touch. ",
     "authors": [
-    {
-        "name": "Magegeeks",
-        "email": "deepakmankotiacse@gmail.com"
-    }
-],
+        {
+            "name": "Magegeeks",
+            "email": "deepakmankotiacse@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
